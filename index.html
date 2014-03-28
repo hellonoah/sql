@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/css/screen.css" />
+<title>
+Welcome
+</title>
+</head>
+<body>
+<div id="columnLeft">
+<li> <a href="/about/">about</a> </li>
+<li> <a href="http://github.com/rjarmand/" target="_blank">github</a> </li>
+<li> <a href="http://www.coroflot.com/rjarmand" target="_blank">portfolio</a> </li>
+<li> <a href="mailto:rjarmand@yahoo.com">contact</a> </li>
+</div>
+<div id="mainColumn">
+<!-- Content for main column -->
+
+* Create Database:
+<pre>
+mysql> CREATE DATABASE cookbook;
+</pre>
+
+* Select cookbook database
+<pre>
+mysql> USE cookbook;
+</pre>
+
+* Populate database with rows:
+
+<pre>
+mysql> CREATE TABLE limbs (thing VARCHAR(20), legs INT, arms INT);
+mysql> INSERT INTO limbs (thing,legs,arms) VALUES('human',2,2);
+mysql> INSERT INTO limbs (thing,legs,arms) VALUES('insect',6,0);
+mysql> INSERT INTO limbs (thing,legs,arms) VALUES('squid',0,10);
+mysql> INSERT INTO limbs (thing,legs,arms) VALUES('octopus',0,8);
+mysql> INSERT INTO limbs (thing,legs,arms) VALUES('fish',0,0);
+mysql> INSERT INTO limbs (thing,legs,arms) VALUES('centipede',100,0);
+mysql> INSERT INTO limbs (thing,legs,arms) VALUES('table',4,0);
+mysql> INSERT INTO limbs (thing,legs,arms) VALUES('armchair',4,2);
+mysql> INSERT INTO limbs (thing,legs,arms) VALUES('phonograph',0,1);
+mysql> INSERT INTO limbs (thing,legs,arms) VALUES('tripod',3,0);
+mysql> INSERT INTO limbs (thing,legs,arms) VALUES('Peg Leg Pete',1,2);
+mysql> INSERT INTO limbs (thing,legs,arms) VALUES('space alien',NULL,NULL);
+
+</pre>
+
+
+
+</div>
+</body>
+</html>
+
